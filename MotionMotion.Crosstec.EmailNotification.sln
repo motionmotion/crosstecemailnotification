@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionMotion.Crosstec.EmailNotification", "MotionMotion.Crosstec.EmailNotification\MotionMotion.Crosstec.EmailNotification.csproj", "{DDE6556E-30BD-4EDB-B50C-46FF2DA68923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionMotion.Crosstec.ScheduleTaskRunner", "MotionMotion.Crosstec.ScheduleTaskRunner\MotionMotion.Crosstec.ScheduleTaskRunner.csproj", "{6EA47159-53D9-4D1A-9576-FD0BE23665D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DDE6556E-30BD-4EDB-B50C-46FF2DA68923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE6556E-30BD-4EDB-B50C-46FF2DA68923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE6556E-30BD-4EDB-B50C-46FF2DA68923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA47159-53D9-4D1A-9576-FD0BE23665D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA47159-53D9-4D1A-9576-FD0BE23665D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA47159-53D9-4D1A-9576-FD0BE23665D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA47159-53D9-4D1A-9576-FD0BE23665D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
