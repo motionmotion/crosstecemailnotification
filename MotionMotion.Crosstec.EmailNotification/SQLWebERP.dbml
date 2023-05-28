@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebERPEmail" Class="SQLWebERPDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.250;Initial Catalog=WebERPEmail;User ID=sa" SettingsObjectName="MotionMotion.Crosstec.EmailNotification.Properties.Settings" SettingsPropertyName="WebERPEmailConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ct_project" Member="ct_projects">
+    <Type Name="ct_project">
+      <Column Name="proj_no" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="brand_code" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="country_code" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="location_code" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="yearend" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="runningno" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="company" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="address2" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="address3" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="address4" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="phone1" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="phone2" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="e_mail" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="contact1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contact2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="payterm" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="currency" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="mark_up" Type="System.Decimal" DbType="Decimal(6,3)" CanBeNull="true" />
+      <Column Name="remark1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="remark2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="quot_remark" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="requested" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="created_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="updated_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="updated" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="category" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="CAT_DC" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CAT_FH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CAT_FO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CAT_FS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CAT_MA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CAT_MF" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="start_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="end_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PM_ID" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="acc_status" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="quot_no" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="quot_no2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="quot_amt" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="proj_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="mat_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="subcon_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="logistic_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="insurance_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="outgoing_cost" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="costlock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="term1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="term2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="term3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="term4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="remind1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="remind2" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="remind3" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="remind4" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="confirm_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="work_nature" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="schedule_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="work_staff" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="shop" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="work_pic" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="lock_dt" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="calert" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="quot_adj" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PM2_ID" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="vo_proj_no" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <email_server_type>1</email_server_type>
+  <enable_test_mode>0</enable_test_mode>
+  <weberp_server_ip>192.168.0.250</weberp_server_ip>
+  <sql_connection>Data Source=192.168.1.250;Initial Catalog=Crosstec;User ID=sa;Password=col#903</sql_connection>
+  <email_office365_sender>null</email_office365_sender>
+  <email_office365tenant_id>null</email_office365tenant_id>
+  <email_office365application_id>null</email_office365application_id>
+  <email_office365client_secret>null</email_office365client_secret>
+  <email_smpt_host>null</email_smpt_host>
+  <email_smpt_sender_email>null</email_smpt_sender_email>
+  <email_smpt_sender_password>null</email_smpt_sender_password>
+  <server_pipename>weberppipe</server_pipename>
+  <appserver_address>192.168.1.88</appserver_address>
+  <appserver_port>5000</appserver_port>
+</ApplicationConfiguration>

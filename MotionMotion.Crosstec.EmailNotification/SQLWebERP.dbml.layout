@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 14.625" name="SQLWebERP">
+  <DataContextMoniker Name="/SQLWebERPDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9cc7c88a-73cd-460f-bd67-fa119592a0d7" absoluteBounds="0.5, 0.5, 2, 13.885887044270833">
+      <DataClassMoniker Name="/SQLWebERPDataContext/ct_project" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9f6ced32-5bbe-4127-a24a-f7cb5c6278fe" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 13.325887044270832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

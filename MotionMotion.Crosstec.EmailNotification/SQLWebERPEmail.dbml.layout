@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SQLWebERPEmail">
+  <DataContextMoniker Name="/SQLWebERPEmailDataContext" />
+  <nestedChildShapes>
+    <classShape Id="48b70794-4dac-48e4-91d9-50d07ee199a0" absoluteBounds="0.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SQLWebERPEmailDataContext/TB_SYSTEM_LOG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e500896e-4bce-464b-99ad-b70747d405d4" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc1c8fd9-3711-4614-81c2-21c67fede086" absoluteBounds="0.75, 2.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SQLWebERPEmailDataContext/TB_EMAILADDRESS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f39b26e2-774a-4e1e-8629-6f8be9b72742" absoluteBounds="0.76500000000000012, 2.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
