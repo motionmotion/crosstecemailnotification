@@ -14,4 +14,6 @@
   <server_pipename>weberppipe</server_pipename>
   <appserver_address>192.168.1.88</appserver_address>
   <appserver_port>5000</appserver_port>
+  <apiserver_autostart>true</apiserver_autostart>
+  <appserver_appname>MotionMotion.Crosstec.EmailNotificationWebApp</appserver_appname>
 </ApplicationConfiguration>

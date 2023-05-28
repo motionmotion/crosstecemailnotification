@@ -39,6 +39,7 @@ namespace MotionMotion.Crosstec.EmailNotification
         private const string MutexName                      = "WEBERPEMAIL";
         public const string ApplicationName                 = "WebERP Email Notification";
         public static readonly string ApplicationVersion    = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        public static readonly string ServerStartTime       = DateTime.Now.ToString(CultureInfo.InvariantCulture);
         public static ApplicationConfiguration AppConfiguration { get; set; }
         public static Thread pipe_server_thread;
         private static bool pipe_server_running;

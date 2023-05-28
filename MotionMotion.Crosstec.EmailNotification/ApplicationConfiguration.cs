@@ -32,9 +32,11 @@ namespace MotionMotion.Crosstec.EmailNotification
         public string   email_smpt_sender_email         { get; set; }
         public string   email_smpt_sender_password      { get; set; }
         public string   server_pipename                 { get; set; }
+        public string   appserver_appname               { get; set; }
         public string   appserver_address               { get; set; }
         public int      appserver_port                  { get; set; }
-
+        public bool     apiserver_autostart             { get; set; }
+        
         public static void CreateTemplateXMLConfig(string filename)
         {
             ApplicationConfiguration tmp = new ApplicationConfiguration();

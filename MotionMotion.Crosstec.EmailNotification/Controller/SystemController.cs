@@ -20,7 +20,7 @@ using System.Web.Http;
 
 namespace MotionMotion.Crosstec.EmailNotification.Controller
 {
-    public class SystemController : ApiController
+    public class SystemController : BaseController
     {
         [DeflateCompression]
         [HttpGet]
